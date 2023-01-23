@@ -16,8 +16,6 @@ let myNumbers: number[] = [1, 2, 3];
 //Classes
 class Car {}
 
-let car: Car = new Car();
-
 //Object literal
 let point: { x: number; y: number } = {
   x: 10,
