@@ -1,5 +1,22 @@
 <html>
+  <head>
+    <style>
+      body,
+      html {
+        height: 100vh;
+        width: 100%;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+    <script async type="module" src="./src/index.ts" defer></script>
+  </head>
   <body>
-    <script type="module" src="./src/index.ts"></script>
+    <div id="map"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNLrJhOMz6idD05pzfn5lhA-TAw-mAZCU&callback=Function.prototype"
+      defer
+    ></script>
   </body>
 </html>
