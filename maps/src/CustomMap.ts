@@ -1,5 +1,6 @@
 //instructions to every other class
 // how it can be an argument to 'addMarker'
+/// <reference types="@types/google.maps" />
 export interface Mappable {
   location: {
     lat: number;
